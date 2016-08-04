@@ -5,3 +5,5 @@ applications:
   host: simpleapp-${random-word}
   buildpack: java_buildpack
   path: ./target/rr-backend-war-1.0-SNAPSHOT.war
+services:
+    - jay-cloudant
