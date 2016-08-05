@@ -1,8 +1,8 @@
 applications:
-- name: simple-app
+- name: simple-app1
   memory: 512M
   instances: 1
-  host: simpleapp-${random-word}
+  host: simpleapp1-${random-word}
   buildpack: java_buildpack
   path: ./target/rr-backend-war-1.0-SNAPSHOT.war
 services:
