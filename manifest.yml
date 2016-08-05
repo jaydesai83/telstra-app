@@ -1,3 +1,6 @@
+declared-services:
+  jay-cloudant:
+    label: cloudant-db-${random-word}
 applications:
 - name: simple-app1
   memory: 512M
